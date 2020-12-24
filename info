@@ -1,0 +1,24 @@
+https://codingdriver.com/custom-login-register-forget-password-functionality-in-laravel-without-auth.html
+
+php artisan make:controller AdminController
+
+php artisan migrate
+
+//composer require laravel/ui
+
+//php artisan ui:auth
+
+Auth.php for authentication model set
+
+php artisan make:model Admin
+
+php artisan make:migration adminlogin
+
+moved controller and models inside folder and run php artisan config:clear
+
+php artisan make:controller Admin/BrandController
+php artisan make:model Admin/Brand
+php artisan make:migration CreateBrandsTable
+php artisan migrate
+
+php artisan storage:link
