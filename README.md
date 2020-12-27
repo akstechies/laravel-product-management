@@ -1,4 +1,4 @@
-Product Manamgemet App in Laravel 8 - CRUD with login, registration and image upload. Admin LTE 3 Bootstrap Theme.
+Product Management App in Laravel 8 - CRUD with login, registration and image upload. Admin LTE 3 Bootstrap Theme.
 
 
 
